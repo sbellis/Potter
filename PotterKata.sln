@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9786559D-12F8-45F6-A2A5-F8743660CF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PotterKata.Tests", "PotterKata.Tests\PotterKata.Tests.csproj", "{DEF65D26-0516-45BD-A7E3-0B77459FB633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PotterKata", "PotterKata\PotterKata.csproj", "{3B451BAD-3E28-45B2-874E-7F924C316C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEF65D26-0516-45BD-A7E3-0B77459FB633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF65D26-0516-45BD-A7E3-0B77459FB633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF65D26-0516-45BD-A7E3-0B77459FB633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF65D26-0516-45BD-A7E3-0B77459FB633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B451BAD-3E28-45B2-874E-7F924C316C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B451BAD-3E28-45B2-874E-7F924C316C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B451BAD-3E28-45B2-874E-7F924C316C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B451BAD-3E28-45B2-874E-7F924C316C58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEF65D26-0516-45BD-A7E3-0B77459FB633} = {9786559D-12F8-45F6-A2A5-F8743660CF5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A38BA8DF-1BBF-4019-8456-CEC15EC3F246}
+	EndGlobalSection
+EndGlobal
