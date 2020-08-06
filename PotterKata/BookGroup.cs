@@ -17,12 +17,13 @@ namespace PotterKata
         public bool AddBookToGroup(Book book)
         {
             var existingBook = _books.SingleOrDefault(x => x.Equals(book));
-            if (existingBook == null)
+            if (existingBook == null && _books.Count < 5)
             {
                 _books.Add(book);
+                return true;
             }
 
-            return existingBook == null;
+            return false;
         }
 
         public decimal CalculateGroupPrice()
